@@ -255,6 +255,77 @@ nav{
   grid-area: inbox;
 }
 
+.emailBox{
+  background-color: white;
+  padding: 20px;
+  height: 180px;
+  box-shadow:  0 5px 5px -5px #7F8C8D;
+}
+
+.check{
+  display: none;
+}
+
+.star{
+  display: none;
+}
+
+.sender{
+  float: left;
+  font-weight: bold;
+  width: auto;
+}
+
+.time{
+  text-align: right;
+  letter-spacing: 0;
+  color: #7F8C8D;
+  opacity: 0.6;
+}
+
+.topic{
+  float: left;
+  margin-top: 10px;
+  color: #7F8C8D;
+}
+
+.content{
+  float: left;
+  margin-top: 10px;
+  color: #7F8C8D;
+}
+
+
+
+.emailBoxScnd{
+  display: none;
+}
+
+.checkScnd{
+  display: none;
+}
+
+.starScnd{
+  display: none;
+}
+
+.senderScnd{
+  display: none;
+}
+
+.topicScnd{
+  display: none;
+}
+
+.contentScnd{
+  display: none;
+}
+
+.timeScnd{
+  display: none;
+}
+
+
 /* gemt på mobil */
 .calendar{
   grid-area: calendar;
@@ -316,6 +387,108 @@ nav{
   select{
     background: $background !important;
   }
+
+  .emailBox{
+    height: 50px;
+  }
+
+  .check{
+    display: inline-block;
+    float: left;
+  }
+
+  .star{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: $grey-light;
+    margin-top: -7px;
+    margin-left: 5px;
+  }
+
+  .sender{
+    display: inline-block;
+    width: 25%;
+    margin-left: 20px;
+  }
+
+  .topic{
+    display: inline-block;
+    width: 27%;
+    margin-top: 0;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  .content{
+    display: inline-block;
+    width: 25%;
+    overflow: hidden;
+    margin-top: 0;
+    height: 20px;
+    font-weight: bold;
+  }
+
+  .time{
+    display: inline-block;
+    width: 16%;
+    float: right;
+    font-weight: bold;
+  }
+
+  .emailBoxScnd{
+    display: inline-block;
+    height: 50px;
+    padding: 20px;
+    box-shadow:  0 5px 5px -5px #7F8C8D;
+  }
+
+  .checkScnd{
+    display: inline-block;
+    float: left;
+  }
+
+  .starScnd{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    color: $grey-light;
+    margin-top: -7px;
+    margin-left: 5px;
+  }
+
+  .senderScnd{
+    display: inline-block;
+    width: 25%;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .topicScnd{
+    display: inline-block;
+    width: 27%;
+    margin-top: 0;
+    overflow: hidden;
+    opacity: 0.6;
+  }
+
+  .contentScnd{
+    display: inline-block;
+    width: 24%;
+    overflow: hidden;
+    margin-top: 0;
+    height: 20px;
+    opacity: 0.6;
+  }
+
+  .timeScnd{
+    display: inline-block;
+    width: 16%;
+    float: right;
+    text-align: right;
+    color: #7F8C8D;
+  }
+
 
   .calendar{
 
