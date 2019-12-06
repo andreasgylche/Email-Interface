@@ -388,6 +388,10 @@ nav{
     background: $background !important;
   }
 
+  .inbox{
+    border-right: 1px solid rgba($grey-lighter, 0.5);
+  }
+
   .emailBox{
     height: 50px;
   }
@@ -491,6 +495,57 @@ nav{
 
 
   .calendar{
-
+    display: block !important;
+    text-align: center;
+    margin: 20px 20px;
   }
+
+  .date{
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .calicon{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .tid{
+    margin-right: 10px;
+  }
+
+  .streg{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .with{
+    color: grey;
+  }
+
+  .december{
+    margin-left: 5px;
+  }
+
+  .lunch{
+    display: flex;
+    margin: 15px;
+    font-size: xx-small;
+    color: darkgrey;
+  }
+
+  .start{
+    display: flex;
+    margin: 15px;
+    font-size: xx-small;
+    color: darkgrey;
+  }
+
+  .skype{
+    display: flex;
+    margin: 15px;
+    font-size: xx-small;
+    color: darkgrey;
+  }
+
 }
